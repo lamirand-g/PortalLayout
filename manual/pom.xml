@@ -24,12 +24,6 @@
 					</execution>
 				</executions>
 				<configuration>
-					<imgSrcPath>file:///${basedir}/src/docbkx/img/</imgSrcPath>
-					<preProcess>
-						<copy todir="${basedir}/target/docbkx/html">
-							<fileset dir="${basedir}/src/docbkx/img" />
-						</copy>
-					</preProcess>
 					<highlightSource>1</highlightSource>
 					<foCustomization>${basedir}/src/docbkx/fopdf.xsl</foCustomization>
 				</configuration>

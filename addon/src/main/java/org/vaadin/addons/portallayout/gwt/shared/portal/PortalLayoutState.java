@@ -25,13 +25,14 @@ import com.vaadin.shared.ui.AbstractLayoutState;
 /**
  * PortalLayoutState.
  */
-public abstract class PortalLayoutState extends AbstractLayoutState {
+public abstract class PortalLayoutState extends AbstractLayoutState
+{
 
-    public boolean spacing = false;
-    
-    public int marginsBitmask = 0;
-    
-    public Map<Connector, Connector> contentToPortlet = new HashMap<Connector, Connector>();
-    
-    public abstract Collection<Connector> portlets();
+  public boolean                   spacing          = false;
+
+  public int                       marginsBitmask   = 0;
+
+  public Map<Connector, Connector> contentToPortlet = new HashMap<Connector, Connector>();
+
+  public abstract Collection<Connector> portlets();
 }

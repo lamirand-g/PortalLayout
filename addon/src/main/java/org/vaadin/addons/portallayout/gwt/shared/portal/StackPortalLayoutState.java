@@ -23,13 +23,14 @@ import com.vaadin.shared.Connector;
 /**
  * StackPortalLayoutState.
  */
-public class StackPortalLayoutState extends PortalLayoutState {
+public class StackPortalLayoutState extends PortalLayoutState
+{
 
-    public List<Connector> portletConnectors = new LinkedList<Connector>();
+  public List<Connector> portletConnectors = new LinkedList<Connector>();
 
-    @Override
-    public List<Connector> portlets() {
-        return portletConnectors;
-    }
-    
+  public List<Connector> portlets()
+  {
+    return portletConnectors;
+  }
+
 }

@@ -2,23 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.vaadin.addons</groupId>
+	<parent>
+		<groupId>org.vaadin.addons</groupId>
+		<artifactId>portal-layout-root</artifactId>
+		<version>2.0.alpha5</version>
+	</parent>
 	<artifactId>portal-layout-demo</artifactId>
-	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>portal-layout - Demo</name>
 	<description>portal-layout add-on demo</description>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<vaadin.version>7.0.1</vaadin.version>
-		<vaadin.plugin.version>7.0.1</vaadin.plugin.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.vaadin.addons</groupId>
 			<artifactId>PortalLayout</artifactId>
-			<version>2.0.alpha5</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
@@ -32,8 +30,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-theme-compiler</artifactId>
-			<version>${vaadin.version}</version>
+			<artifactId>vaadin-sass-compiler</artifactId>
+			<version>0.9.6</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
