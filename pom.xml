@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>portal-layout-root</artifactId>
-	<version>2.0.alpha5</version>
+	<version>2.0.alpha5.v7.2</version>
 	<packaging>pom</packaging>
 
 	<name>portal-layout root project</name>
@@ -13,8 +13,8 @@
 		<addonBaseName>PortalLayout</addonBaseName>
 		<addonFullName>${addonBaseName}-${project.version}</addonFullName>
 		<addonJarName>${addonFullName}.jar</addonJarName>
-		<vaadin.version>7.2.3</vaadin.version>
-		<vaadin.plugin.version>7.2.3</vaadin.plugin.version>
+		<vaadin.version>7.2.5</vaadin.version>
+		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
 	</properties>
 
 	<modules>
