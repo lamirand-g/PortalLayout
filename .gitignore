@@ -1,0 +1,17 @@
+*.class
+target
+
+# Package Files #
+*.jar
+*.war
+*.ear
+.gwt
+
+# Eclipse Files #
+*.classpath
+*.settings
+*.project
+
+# Vaadin
+gwt-unitCache
+widgetsets
