@@ -13,7 +13,7 @@
 		<addonBaseName>PortalLayout</addonBaseName>
 		<addonFullName>${addonBaseName}-${project.version}</addonFullName>
 		<addonJarName>${addonFullName}.jar</addonJarName>
-		<vaadin.version>7.4.0</vaadin.version>
+		<vaadin.version>7.4.5</vaadin.version>
 		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
 	</properties>
 
