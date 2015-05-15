@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>PortalLayout</artifactId>
-	<version>2.0.alpha5.v7.3</version>
+	<version>2.0.alpha5.v7.4</version>
 	<packaging>jar</packaging>
 	<name>PortalLayout</name>
 	<description>portal-layout add-on</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<vaadin.version>7.3.0</vaadin.version>
+		<vaadin.version>7.4.3</vaadin.version>
 		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
 		<gwt.dnd.version>3.3.2</gwt.dnd.version>
 	</properties>
