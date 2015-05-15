@@ -12,6 +12,10 @@ target
 *.settings
 *.project
 
+# Intellij
+*.iml
+.idea
+
 # Vaadin
 gwt-unitCache
 widgetsets
